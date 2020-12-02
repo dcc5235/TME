@@ -3,7 +3,7 @@ const path = require('path');
 
 class Runner {
   constructor() {
-    this.files = [];
+    this.testFiles = [];
   }
 
   async runTests() {
@@ -19,7 +19,7 @@ class Runner {
       const filepath = path.join(targetPath, file);
       const stats = await fs.promises.lstat(filepath);
 
-      if (stats.isFile()) {
+      if (stats.isFile() && file.includes('.test.js')) {
         this.testFiles.push({ name: filepath });
       } else if (stats.isDirectory()) {
         const childFiles = await fs.promises.readdir(filepath);
