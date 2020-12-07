@@ -2,6 +2,7 @@
 work in progress
 
 A command line tool to run in other projects for testing and built from scratch.
+Testing framework - used to test node app.
 
 ---
 # For Sample Project
@@ -22,3 +23,9 @@ A command line tool to run in other projects for testing and built from scratch.
 # For Sample Web Project
 ## Installations
 - install [jsdom](https://www.npmjs.com/package/jsdom) to load code for application to test
+
+## Script Execution Delay
+- Tell JSDOM to load index.html
+- JSDOM fetches HTML file and parses it. Once complete, 'fromFile' promise resolved and returns DOM object --> JSDOM loads index.js file and executes code
+- test runs
+- submit check form, check h1 element
