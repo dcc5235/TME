@@ -4,7 +4,7 @@ work in progress
 A command line tool to run in other projects for testing and built from scratch.
 
 ---
-
+# For Sample Project
 ## TESTING Node-based CLI framework
 - run command line npm init -y to download package.json file
 - input test requirements in both index.js file and package.json file
@@ -19,5 +19,6 @@ A command line tool to run in other projects for testing and built from scratch.
 - report results
 
 ---
-
-## Contributions 
+# For Sample Web Project
+## Installations
+- install [jsdom](https://www.npmjs.com/package/jsdom) to load code for application to test
