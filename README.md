@@ -17,3 +17,7 @@ A command line tool to run in other projects for testing and built from scratch.
 - test environment setup: store a reference to each file found
 - test file execution: execute them one by one
 - report results
+
+---
+
+## Contributions 
