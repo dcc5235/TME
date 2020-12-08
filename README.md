@@ -25,6 +25,6 @@ A testing framework to test node applications utilizing the command line tool. S
 
 ## Script Execution Delay
 - Tell JSDOM to load index.html
-- JSDOM fetches HTML file and parses it. Once complete, 'fromFile' promise resolved and returns DOM object --> JSDOM loads index.js file and executes code
+- JSDOM fetches HTML file and parses it. Once complete, 'fromFile' promise resolved and returns DOM object (JSDOM loads index.js file and executes code)
 - Test runs
 - Submit check form which checks h1 element
